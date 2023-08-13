@@ -6,6 +6,10 @@
     <a class="telegramButton contactMe" href="https://t.me/SquoZ" target="_blank">
       <span>Send me a </span><i id="telegramLogo"></i>
     </a>
+
+    <a class="sourceCodeButton contactMe" href="https://github.com/Meirbek-dev/quiz-app" target="_blank">
+      <span>Source code </span><i id="githubLogo"></i>
+    </a>
   </div>
 </template>
 
@@ -35,18 +39,16 @@
 
 .contactMe:before {
   content: "";
-  background: linear-gradient(
-    45deg,
-    #ff0000,
-    #ff7300,
-    #fffb00,
-    #48ff00,
-    #00ffd5,
-    #002bff,
-    #7a00ff,
-    #ff00c8,
-    #ff0000
-  );
+  background: linear-gradient(45deg,
+      #ff0000,
+      #ff7300,
+      #fffb00,
+      #48ff00,
+      #00ffd5,
+      #002bff,
+      #7a00ff,
+      #ff00c8,
+      #ff0000);
   position: absolute;
   top: -2px;
   left: -2px;
@@ -99,9 +101,11 @@
   0% {
     background-position: 0 0;
   }
+
   50% {
     background-position: 400% 0;
   }
+
   100% {
     background-position: 0 0;
   }
@@ -113,7 +117,6 @@
   justify-content: center;
   text-align: center;
   padding: 10px;
-  margin-bottom: 40px;
   color: #fff;
   text-decoration: none;
 }
@@ -125,6 +128,27 @@
   vertical-align: middle;
   margin-right: 4px;
   background: url("../assets/telegram.png") no-repeat;
+  background-size: contain;
+}
+
+.sourceCodeButton {
+  background-color: #0088cc;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 40px;
+  color: #fff;
+  text-decoration: none;
+}
+
+#githubLogo {
+  display: inline-block;
+  height: 18px;
+  width: 18px;
+  vertical-align: middle;
+  margin-right: 4px;
+  background: url("../assets/github.png") no-repeat;
   background-size: contain;
 }
 </style>
