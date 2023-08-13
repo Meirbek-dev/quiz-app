@@ -1,0 +1,884 @@
+[
+  {
+    "id": 1,
+    "name": "Vue",
+    "img": "./vue.jpg",
+    "questions": [
+      {
+        "id": 1,
+        "text": "What does Vue.js stand for?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Virtual Underlying Engine JavaScript",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Very Useful Environment",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Vue User Experience",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Vue.js doesn't stand for anything; it's just the name of the library.",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "Which Vue.js directive is used to bind data to an HTML attribute?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "v-bind",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "v-model",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "v-html",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "v-for",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "In Vue.js, what is the purpose of the \"el\" option when creating a Vue instance?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "It specifies the element where the Vue instance will be mounted.",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "It defines the event listeners for the instance.",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "It sets up the data properties for the instance.",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "It determines the root component of the application.",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "What is a Vue.js component?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "A built-in HTML tag",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "A custom element defined by the developer",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "A global variable in Vue.js",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "A reserved keyword for data binding",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "How can you communicate from a child component to a parent component in Vue.js?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Using the v-communicate directive",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Emitting a custom event with \"this.$emit()\"",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Directly modifying the parent's data from the child",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "By using the parent-child binding syntax",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "text": "Which lifecycle hook is NOT available in Vue.js?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "created",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "started",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "mounted",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "destroyed",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "text": "What is the purpose of Vue Router in a Vue.js application?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "It helps manage the application's state.",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "It handles HTTP requests and responses.",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "It enables navigation between different views in a single-page application.",
+            "isCorrect": true
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "It optimizes the rendering of virtual DOM elements.",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "text": "How do you define a route in Vue Router?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Using the \"path\" property in the Vue instance options.",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Adding a new Vue component in the \"components\" section of the router configuration.",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Specifying the route path and the component to render in the router configuration.",
+            "isCorrect": true
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Creating a new Vue instance for each route.",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "text": "Which Vue Router method is used to programmatically navigate to a different route?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "this.routeTo()",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "this.navigate()",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "this.push()",
+            "isCorrect": true
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "this.changeRoute()",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Asynchronous Programming",
+    "img": "./async.webp",
+    "questions": [
+      {
+        "id": 1,
+        "text": "What is asynchronous programming?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "A programming paradigm that executes code sequentially.",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "A programming approach where tasks are executed in parallel.",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "A programming technique for handling tasks that may not complete immediately.",
+            "isCorrect": true
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "A programming method focused on static analysis.",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "Which keyword is used in JavaScript to declare a function as asynchronous?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "async",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "await",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "asyncFunc",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "asynchronous",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "What does the 'await' keyword do in asynchronous JavaScript code?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "It pauses the execution of the code until the awaited promise is resolved.",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "It cancels the execution of the asynchronous function.",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "It forcefully resolves the awaited promise.",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "It converts asynchronous code to synchronous code.",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "Which of the following is NOT a way to handle asynchronous operations in JavaScript?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Using callbacks",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Using promises",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Using events",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Using synchronously executed code",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "What is a callback hell?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "A term used to describe the joy of using callbacks in JavaScript.",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "A situation where multiple nested callbacks make code hard to read and maintain.",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "A programming technique for optimizing asynchronous operations.",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "A method for eliminating asynchronous code from an application.",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "TypeScript Fundamentals",
+    "img": "./typescript.png",
+    "questions": [
+      {
+        "id": 1,
+        "text": "What is TypeScript?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "A superset of JavaScript that adds optional static typing.",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "A new programming language developed by Microsoft.",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "A framework for building frontend applications.",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "A library for creating RESTful APIs.",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "Which file extension is commonly used for TypeScript files?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": ".js",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": ".ts",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": ".txt",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": ".html",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "What is the purpose of TypeScript's type annotations?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "To force strict type checking at runtime.",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "To provide runtime type conversions.",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "To add documentation comments to the code.",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "To specify the expected types of variables and function parameters.",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "Which of the following is true about TypeScript interfaces?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Interfaces are only used for class inheritance.",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Interfaces are a runtime feature of TypeScript.",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Interfaces are a way to define contracts for object shapes.",
+            "isCorrect": true
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Interfaces are not supported in TypeScript.",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "Which TypeScript feature helps catch errors during development by checking types?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Type guards",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Type assertions",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Type inference",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Static typing",
+            "isCorrect": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "img": "./biology.png",
+    "name": "Biology",
+    "questions": [
+      {
+        "id": 1,
+        "text": "The Kreb Cycles occurs in the",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Mitochondria",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Nucleus",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Rough ER",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Cystol",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "How many oxygen molecules can hemoglobin hold",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "1",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "2",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "3",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "4",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "The cones see ___ while the rods see ___",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "black and white; color",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "color; black and white",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "3D objects; 2D shapes",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "2D shapes; 3D objects",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "img": "./chemistry.jpeg",
+    "name": "Chemistry",
+    "questions": [
+      {
+        "id": 1,
+        "text": "What is the composition of table salt",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "NaCl",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "K2",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "NaCl2C4H7",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "CH4",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "What is Potassium's chemical symbol",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "P",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Pt",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Pts",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "K",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "Which is not organinc",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "CH4",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "NaCl",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "C2H6",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "C3H8",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "img": "./math.webp",
+    "name": "Math",
+    "questions": [
+      {
+        "id": 1,
+        "text": "8 ÷ 2(2 + 2)",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "16",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "1",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "8",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "24",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "sqrt(64) * 9",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "4",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "81",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "72",
+            "isCorrect": true
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "144",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "3 + 3 x 3 ÷ 3 - 3",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "3",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "1",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "9",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "16",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  }
+]
